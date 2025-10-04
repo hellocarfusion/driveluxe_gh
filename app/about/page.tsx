@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 lg:h-[600px] rounded-lg overflow-hidden">
               <img
-                src="/placeholder.svg?height=800&width=600"
+                src="/about.jpg"
                 alt="DriveLuxe Story"
                 className="w-full h-full object-cover"
               />

@@ -10,17 +10,22 @@ export default function HomePage() {
     <div className="min-h-screen">
       <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/luxury-black-sports-car-in-modern-showroom-with-dr.jpg"
-            alt="Luxury vehicle"
-            className="w-full h-full object-cover opacity-40"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
-        </div>
+     {/* Hero Section */}
+<section className="relative h-screen flex items-center justify-center overflow-hidden">
+  {/* Background Video */}
+  <div className="absolute inset-0 z-0">
+    <video
+      src="/hero.mp4" // Replace with your video path
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="w-full h-full object-cover opacity-50"
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
+  </div>
+
+
 
         {/* Hero Content */}
         <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
@@ -128,7 +133,7 @@ export default function HomePage() {
             <Card className="group overflow-hidden border-border hover:border-accent/50 transition-all duration-300">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="/luxury-suv-at-airport-terminal.jpg"
+                  src="/airport.jpg"
                   alt="Airport Transfer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -157,7 +162,7 @@ export default function HomePage() {
             <Card className="group overflow-hidden border-border hover:border-accent/50 transition-all duration-300">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="/luxury-sedan-driving-through-city-at-night.jpg"
+                  src="/citydrive.jpg"
                   alt="City Rides"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />

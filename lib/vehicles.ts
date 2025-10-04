@@ -181,9 +181,9 @@ export const vehicles: Vehicle[] = [
       weekly: 9500,
       monthly: 35000,
     },
-    image: "/placeholder.svg?height=600&width=900",
+    image: "/bentley.jpg",
     images: [
-      "/placeholder.svg?height=600&width=900",
+      "/bentley.jpg",
       "/placeholder.svg?height=600&width=900",
       "/placeholder.svg?height=600&width=900",
     ],
@@ -221,9 +221,9 @@ export const vehicles: Vehicle[] = [
       weekly: 7000,
       monthly: 25000,
     },
-    image: "/placeholder.svg?height=600&width=900",
+    image: "/benz1.jpg",
     images: [
-      "/placeholder.svg?height=600&width=900",
+      "/benz2.jpg",
       "/placeholder.svg?height=600&width=900",
       "/placeholder.svg?height=600&width=900",
     ],
@@ -261,7 +261,7 @@ export const vehicles: Vehicle[] = [
       weekly: 12500,
       monthly: 45000,
     },
-    image: "/placeholder.svg?height=600&width=900",
+    image: "/rolls1.jpg",
     images: [
       "/placeholder.svg?height=600&width=900",
       "/placeholder.svg?height=600&width=900",
@@ -301,7 +301,7 @@ export const vehicles: Vehicle[] = [
       weekly: 8500,
       monthly: 32000,
     },
-    image: "/placeholder.svg?height=600&width=900",
+    image: "/urus.jpg",
     images: [
       "/placeholder.svg?height=600&width=900",
       "/placeholder.svg?height=600&width=900",
